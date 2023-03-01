@@ -1,29 +1,3 @@
-# Robot Framework XML examples
-
-This example robot demonstrates how to parse, query, and modify XML using Robot Framework.
-
-Some of the things you can do include:
-
-- Parse an XML file
-- Get elements from XML by XPath
-- Get elements from XML by element value
-- Get elements from XML by attribute value
-- Get element children from XML by XPath
-- Access XML element object attributes
-- Get attribute values from XML by XPath
-- Get named attribute value from XML by XPath
-- Save XML to a file
-- Remove elements from XML by XPath
-- Remove element attributes from XML by XPath
-- Set XML element attribute value
-- Add attribute to XML element by XPath
-- Transform XML using XSLT
-
-See the [XML library documentation](https://robocorp.com/docs/libraries/built-in/xml) for more examples and a complete list of keywords.
-
-## The example XML file
-
-```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <robots>
     <robot id="MK-I">
@@ -98,4 +72,3 @@ See the [XML library documentation](https://robocorp.com/docs/libraries/built-in
         </dimensions>
     </robot>
 </robots>
-```
